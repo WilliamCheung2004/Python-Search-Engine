@@ -43,6 +43,7 @@ Also make sure you have the folder videogames in the same directory as the scrip
 ## Limitations
 * Currently does accurately search for words with minimal meanings
 * But doesn't really have syntatic searching yet e.g. if you search for Python it could search up a snake or the programming language depending on the pages
+* Only searches through a set list of html files within videogames
 
 ---
 
