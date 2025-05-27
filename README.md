@@ -1,5 +1,12 @@
 # Search Engine
-Simple search engine in Python that searches through a bunch of html files for some words you are looking for - basically just weights how close the words are to the worlds found in the videogames directory then displays the top 10 search results - this should work if you add some custom html files to the video games folder if you wanted to test some more pages. 
+Simple search engine in Python that searches through a bunch of html files for some words you are looking for.
+
+How this works is:
+* You input something to search for
+* Loops through the video games folder for each webpage
+* Checks how "close" your word is to each word in each webpage
+* Then does some weighting calculations to rank each result
+* Finally displays top 10 results which should be close to your search input
 
 * Involves using natural learning libraries such as nltk, spaCy and numpy
 * Weighting - for results
