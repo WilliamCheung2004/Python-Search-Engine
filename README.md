@@ -24,8 +24,8 @@ In the terminal run these commands to download:
 * pip install spacy
 
 ### As well as the language model for spaCy
-* (python -m spacy download en_core_web_trf)
-
+* python -m spacy download en_core_web_trf
+* (Replace python depending on your python version you may need to search this)
 ---
 
 ## Note 
