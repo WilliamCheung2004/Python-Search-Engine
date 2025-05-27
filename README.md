@@ -8,23 +8,23 @@ Simple search engine in Python that searches through a bunch of html files for s
 
 ## Instructions
 
-Whilst I ran this in Visual Studio Code this should be runnable as long as:
-Within (where you run the code) in the terminal run these commands to download:
+I recommend running this in Visual Studio Code or any other IDE supporting NLTK, Beautiful Soup, etc. 
+In the terminal run these commands to download:
 
-Ensuring that bs4 is installed for Beautiful Soup
-(pip3 install beautifulsoup4)
+### Install Beautiful Soup
+* pip3 install beautifulsoup4
 
-Ensuring NLTK is installed 
-(pip install nltk)
+### Install Nltk
+* pip install nltk
 
-Ensuring numPy is installed 
-(pip install numpy)
+### Install Numpy
+* pip install numpy
 
-Ensuring spaCy is installed 
-(pip install spacy)
+### Install Spacy
+* pip install spacy
 
-As well as the language model for spaCy
-(python -m spacy download en_core_web_trf)
+### As well as the language model for spaCy
+* (python -m spacy download en_core_web_trf)
 
 ---
 
